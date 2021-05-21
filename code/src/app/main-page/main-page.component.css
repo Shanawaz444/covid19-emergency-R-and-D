@@ -1,0 +1,118 @@
+.main_page_nav .nav_bar {
+    background-color: #00203F;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+.main_page_nav .main_page_nav_row{
+    margin-left: auto;
+    display: flex;
+
+}
+.main_page_nav .main_page_nav_row .main_page_nav_about_link
+{
+    margin-left:20px
+}
+.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown
+{
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.main_page_nav .nav_bar .main_page_title{
+color: #ADEFD1;
+font-size:  20px;
+font-family: "alata";
+margin-bottom: 20px;
+margin-right: 10px;
+}
+.main_page_nav .nav_bar .main_page_nav_row
+{
+    color: #ADEFD1;
+    font-family: "alata";
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+.registration_main_part .registration_main_part_row{
+
+    display:flex;
+}
+
+.registration_main_part .registration_main_part_row .recipient_block{
+    background-color:#F3F3F3;
+    width: fill;
+   padding-left: 50px;
+
+}
+
+
+.registration_main_part .registration_main_part_row .donor_block{
+    padding-left: 50px;
+    width: fill;
+    background-color: #C4C4C4;
+}
+.registration_main_part .registration_main_part_row .recipient_block .recipient_block_button{
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+    max-Width:50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color:#00203F;
+    margin-bottom: 100px;
+    color:#ADEFD1;
+    font-size: 17px;
+    font-family: "alata";
+    
+
+}
+
+.registration_main_part .registration_main_part_row .donor_block .donor_block_button{
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    max-Width:50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color:#ADEFD1;
+    margin-bottom: 100px;
+    color:#00203F;
+    font-size: 17px;
+    font-family: "alata";
+    
+
+}
+.registration_main_part .registration_main_part_row .recipient_block .recipient_block_text{
+
+    font-family: "alata";
+    font-size: 15px;
+  color:#00203F;
+  margin-bottom: 40px;
+
+}
+.recipient_block_headding{
+    margin-top: 100px;
+    font-family: "alata";
+    font-size: 22px;
+  color:#00203F;
+}
+.registration_main_part .registration_main_part_row .donor_block .donor_block_text{
+
+    font-family: "alata";
+    font-size: 15px;
+  color:#00203F;
+  margin-bottom: 40px;
+
+}
+.donor_block_headding{
+    margin-top: 100px;
+    font-family: "alata";
+    font-size: 22px;
+  color:#00203F;
+}
