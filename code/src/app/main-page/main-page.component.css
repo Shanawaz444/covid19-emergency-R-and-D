@@ -11,13 +11,56 @@
 }
 .main_page_nav .main_page_nav_row .main_page_nav_about_link
 {
-    margin-left:20px
+    margin-left:20px;
+    font-size:15px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.main_page_nav .main_page_nav_row .main_page_nav_about_link:hover{
+    color:#FBB086;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.05)
+
 }
 .main_page_nav .main_page_nav_row .main_page_nav_login_dropdown
 {
+   
     margin-left:20px;
     margin-right:10px;
+    font-size:15px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
+.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown:hover{
+    color:#FBB086;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.05)
+    
+}
+
+.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown .main_page_nav_login_dropdown_list{
+
+width:80px;
+height:0px;
+background-color: #ADEFD1;
+z-index: 2;
+position: absolute;
+transform: translateX(-15px);
+opacity: 0;
+transition: all 0.3s;
+}
+
+
+.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown:hover .main_page_nav_login_dropdown_list{
+    transition: all 0.3s;
+    display:block;
+    height:100px;
+    opacity: 1;
+
+}
+
 
 .main_page_nav .nav_bar .main_page_title{
     padding-left: 20px;
@@ -79,8 +122,19 @@ margin-right: 10px;
     color:#ADEFD1;
     font-size: 17px;
     font-family: "alata";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+.registration_main_part .registration_main_part_row .recipient_block .recipient_block_button:hover{
+    border-style: solid;
+    border-color: #ADEFD1;
     
-
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    
 }
 
 .registration_main_part .registration_main_part_row .donor_block .donor_block_button{
@@ -95,8 +149,21 @@ margin-right: 10px;
     color:#00203F;
     font-size: 17px;
     font-family: "alata";
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
     
 
+}
+.registration_main_part .registration_main_part_row .donor_block .donor_block_button:hover{
+    border-style: solid;
+    border-color: #00203F;
+    
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    
 }
 .registration_main_part .registration_main_part_row .recipient_block .recipient_block_text{
 
@@ -203,7 +270,18 @@ margin-right: 10px;
   border-radius: 6px;
   margin-top: 30px;
 
-  transform:translateX(-50px)
+  transform:translateX(-50px);
+  transition: .5s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+.instructions_main_part .instructions_main_part_card2:hover{
+    z-index: 3;
+    transition: 1.5s;
+    transition-timing-function: ease-in-out;
 
 }
 .instructions_main_part .instructions_main_part_card2 .precautions{
