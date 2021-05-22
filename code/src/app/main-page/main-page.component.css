@@ -20,6 +20,7 @@
 }
 
 .main_page_nav .nav_bar .main_page_title{
+    padding-left: 20px;
 color: #ADEFD1;
 font-size:  20px;
 font-family: "alata";
@@ -216,6 +217,7 @@ margin-right: 10px;
     width:stretch;
     text-align:center;
     color: #ADEFD1;
-    font-family: "alata";
+    font-family: "alata";   
     font-size: 15px;
+    padding-bottom: 10px;
 }
