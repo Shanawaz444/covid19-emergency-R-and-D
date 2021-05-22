@@ -99,7 +99,7 @@ margin-right: 10px;
 
 .registration_main_part .registration_main_part_row .recipient_block{
     background-color:#F3F3F3;
-    width: stretch;
+    width: 100%;
    padding-left: 50px;
 
 }
@@ -107,7 +107,7 @@ margin-right: 10px;
 
 .registration_main_part .registration_main_part_row .donor_block{
     padding-left: 50px;
-    width: stretch;
+    width: 100%;
     background-color: #C4C4C4;
 }
 .registration_main_part .registration_main_part_row .recipient_block .recipient_block_button{
