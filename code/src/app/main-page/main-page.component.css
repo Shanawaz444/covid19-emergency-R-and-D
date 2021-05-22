@@ -39,6 +39,15 @@ margin-right: 10px;
 
 
 
+
+
+
+
+
+
+
+
+
 .registration_main_part .registration_main_part_row{
 
     display:flex;
@@ -115,4 +124,98 @@ margin-right: 10px;
     font-family: "alata";
     font-size: 22px;
   color:#00203F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructions_main_part{
+    background-color: #00203F;
+    display: flex;
+
+}
+.instructions_main_part .instructions_main_part_1{
+    margin-top: 150px;
+    color: #ADEFD1;
+    font-family: "alata";
+    font-size: 22px;
+    max-width: 500px;
+    margin-left: 30px;
+
+}
+.instructions_main_part .instructions_main_part_card1{
+    margin-top: 100px;
+    margin-left: auto;
+    background-color: #FBB086;
+    padding: 30px;
+    font-family: "alata";
+    font-size: 22px;
+  color:#00203F;
+  padding-right: 70px;
+    display: flex;
+    border-radius: 6px;
+    z-index: 2;
+}
+.instructions_main_part .instructions_main_part_card1 .instructions_main_part_card1_text2 .symptoms{
+
+    font-size: 20px;
+    
+
+}
+.instructions_main_part .instructions_main_part_card1 .instructions_main_part_card1_text2 .symptoms_types{
+
+    font-size: 15px;
+    
+
+}
+.instructions_main_part .instructions_main_part_card1  .instructions_main_part_card1_divider{
+
+    border-left: 3px solid #00203F;
+  height: auto;
+    margin-left:60px;
+    margin-right: 10px;
+    
+
+}
+
+.instructions_main_part .instructions_main_part_card2{
+    margin-right: 30px;
+    background-color: #ADEFD1;
+    max-height: 200px;
+    font-family: "alata";
+    font-size: 15px;
+  color:#00203F;
+  padding-right: 70px;
+  padding-left: 70px;
+  border-radius: 6px;
+  margin-top: 30px;
+
+  transform:translateX(-50px)
+
+}
+.instructions_main_part .instructions_main_part_card2 .precautions{
+    margin-top: 25px;
+   font-size: 20px;
+
+}
+.copoweredby{
+    padding-top: 30px;
+    background-color: #00203F;
+    width:stretch;
+    text-align:center;
+    color: #ADEFD1;
+    font-family: "alata";
+    font-size: 15px;
 }
