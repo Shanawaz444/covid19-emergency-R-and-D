@@ -13,4 +13,6 @@ export class AppComponent {
     this.router.navigate(['/main_page'])
     
   }
+
 }
+
