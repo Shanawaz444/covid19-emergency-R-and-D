@@ -40,26 +40,10 @@
     
 }
 
-.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown .main_page_nav_login_dropdown_list{
-
-width:80px;
-height:0px;
-background-color: #ADEFD1;
-z-index: 2;
-position: absolute;
-transform: translateX(-15px);
-opacity: 0;
-transition: all 0.3s;
-}
 
 
-.main_page_nav .main_page_nav_row .main_page_nav_login_dropdown:hover .main_page_nav_login_dropdown_list{
-    transition: all 0.3s;
-    display:block;
-    height:100px;
-    opacity: 1;
 
-}
+
 
 
 .main_page_nav .nav_bar .main_page_title{
